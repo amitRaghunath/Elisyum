@@ -1,0 +1,281 @@
+<div class="bg" id="hom" >
+
+ <section class="home">
+    
+    <div class="content">
+      <h1 class="h1" >ELISYUM<br><span> Explore.</span><br><span>The World Is Yours</span> </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque omnis ea veniam ducimus tempore accusantium optio fugit ratione doloribus iure eaque sunt earum impedit ut corporis neque maiores eos eligendi, alias nisi perspiciatis quisquam voluptatum aliquam. Odio, facere! Quisquam hic quae quis quas doloribus temporibus debitis numquam facilis tenetur praesentium!</p>
+      <a href="#">Read More</a>
+    </div>
+  
+  </section>
+</div>
+
+<div class="cardcontainer" id="gallery" >
+
+  <section class="service">
+    <h1 class="heading">
+      <span>B</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span>
+      <span class="space"></span>
+      <span>N</span>
+      <span>o</span>
+      <span>W</span>
+      
+    </h1>
+  </section>
+
+  <div class=" container-fluid   text-center cardd">
+    <div class="row align-items-center rowclass">
+
+      <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let car of cardetails">
+        <div class="card cardme  "  style="width: 25rem; height: auto;">
+          <img [src] = "car.img" class="card-img-top image" alt="image">
+          <!-- ../../../assets/pexels-asad-photo-maldives-3601426.jpg -->
+          <div class="card-body"> 
+            <h5 class="card-title text-center cardtitle"><img src="../../../assets/red-geolocation-icon_74669-526.avif" class="imageloc" alt="">{{car.title}}</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet</p>
+            <div class="star">
+              <img src="../../../assets/25533.jpg" class="imageloc" id="star" alt="">
+              <img src="../../../assets/25533.jpg" class="imageloc" id="star" alt="">
+              <img src="../../../assets/25533.jpg" class="imageloc" id="star" alt="">
+              <img src="../../../assets/25533.jpg" class="imageloc" id="star" alt="">
+              <h5 class="price">$100</h5>
+              <button class="btn btn-success text-center" >Book Now</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cardcontainer" >
+
+  <section class="service" id="srv">
+    <h1 class="heading">
+      <span>S</span>
+      <span>E</span>
+      <span>R</span>
+      <span>V</span>
+      <span>I</span>
+      <span>C</span>
+      <span>E</span>
+    </h1>
+  </section>
+  <div class="container text-center cardd">
+    <div class="row align-items-center">
+
+      <div class="col-4" >
+        <div class="cardme1"  style="width: 25rem; height: auto;">
+
+          <div class="card-body">
+            
+            <i class="fa fa-hotel" style="font-size:48px;color: rgb(8, 52, 65);"></i>
+            <h5 class="card-title text-center cardtitle1">Hotel Stay</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet, nesciunt minus vel doloremque minima repellendus, ut commodi numquam veniam, porro nostrum!</p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-4" >
+        <div class="cardme1"  style="width: 25rem; height: auto;">
+
+          <div class="card-body">
+            
+            <i class="fa fa-cutlery" style="font-size:48px;color: rgb(8, 52, 65);"></i>
+            <h5 class="card-title text-center cardtitle1">Food and Drinks</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet, nesciunt minus vel doloremque minima repellendus, ut commodi numquam veniam, porro nostrum!</p>
+
+          </div>
+
+        </div>
+      </div>
+   
+      <div class="col-4" >
+        <div class="cardme1"  style="width: 25rem; height: auto;">
+
+          <div class="card-body">
+            
+            <i class="fa fa-bullhorn" style="font-size:48px;color: rgb(8, 52, 65);"></i>
+            <h5 class="card-title text-center cardtitle1">Safety</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet, nesciunt minus vel doloremque minima repellendus, ut commodi numquam veniam, porro nostrum!</p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-4" >
+        <div class="cardme1"  style="width: 25rem; height: auto;">
+
+          <div class="card-body">
+            
+            <i class="fa fa-globe" style="font-size:48px;color: rgb(8, 52, 65);"></i>
+            <h5 class="card-title text-center cardtitle1">Around the world</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet, nesciunt minus vel doloremque minima repellendus, ut commodi numquam veniam, porro nostrum!</p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-4" >
+        <div class="cardme1"  style="width: 25rem; height: auto;">
+
+          <div class="card-body">
+            
+            <i class="fa fa-space-shuttle" style="font-size:48px;color: rgb(8, 52, 65);"></i>
+            <h5 class="card-title text-center cardtitle1">Fast Routes</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet, nesciunt minus vel doloremque minima repellendus, ut commodi numquam veniam, porro nostrum!</p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-4" >
+        <div class="cardme1"  style="width: 25rem; height: auto;">
+
+          <div class="card-body">
+            
+            <i class="fa fa-camera-retro" style="font-size:48px;color: rgb(8, 52, 65);"></i>
+            <h5 class="card-title text-center cardtitle1">Siteseeing</h5>
+            <p class="card-text text-center cardesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi non, harum veritatis molestias soluta repellat sunt. Eveniet, nesciunt minus vel doloremque minima repellendus, ut commodi numquam veniam, porro nostrum!</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-md text-center cardd" id="b">
+  <section class="service">
+    <h1 class="heading" >
+      <span>B</span>
+      <span>O</span>
+      <span>o</span>
+      <span>k</span>
+      <span>I</span>
+      <span>n</span>
+      <span>G</span>
+    </h1>
+  </section>
+
+  <div class="row book gx-5">
+    <div class="col-6 roww" >
+      <img src="../../../assets/4352093_2293846.jpg" class="card-img-top image1" alt="image">
+    </div>
+
+    <div class="col-lg-6 roww" >
+      <div class="card cardmebook"  style="width: 30rem; height: auto;">
+        <div class="card-body"> 
+        <form>
+
+          <!-- <mat-form-field class = "formField">
+            <label class="lab">Emailid</label>
+            <br>
+            <input type="email" class="input" matInput formControlName = "fullname" name="PlaceName" matInput placeholder="email">
+            <mat-error>
+               Name Can't Be Blanked
+             </mat-error>
+           </mat-form-field> -->
+
+           <!-- <mat-form-field class = "formField">
+            <label class="lab">Where To</label>
+            <br>
+            <input type="text" class="input" matInput formControlName = "fullname" name="PlaceName" matInput placeholder="PlaceName">
+            <mat-error>
+               Name Can't Be Blanked
+             </mat-error>
+           </mat-form-field> -->
+
+           <!-- <mat-form-field class = "formField">
+            <label class="lab">No. of Person</label>
+            <br>
+            <input type="text" class="input" matInput formControlName = "fullname" name="PlaceName" matInput placeholder="PlaceName">
+            <mat-error>
+               Name Can't Be Blanked
+             </mat-error>
+           </mat-form-field> -->
+
+           <!-- <mat-form-field class = "formField">
+            <label  class="lab">From: </label>
+            <br>
+            <input type="date" class="input" matInput formControlName = "fullname" name="PlaceName" matInput placeholder="date">
+            <mat-error>
+               Name Can't Be Blanked
+             </mat-error>
+           </mat-form-field> -->
+
+           <mat-form-field class = "formField">
+            <label class="lab">To:</label>
+            <br>
+            <input type="date" class="input" matInput formControlName = "fullname" name="PlaceName" matInput placeholder="date">
+            <mat-error>
+               Name Can't Be Blanked
+             </mat-error>
+           </mat-form-field>
+
+           <div>
+            <button class="btn btn-success text-center">Book</button>
+           </div>
+
+        </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="fotmain">
+  <div class="box-container">
+    <div class="box">
+      <h3>Aboust us</h3>
+    
+      <a href="">Terms of service</a>
+      <a href="">User agreement</a>
+      <a href="">Return policy</a>
+      <a href="">Management</a>
+    </div>
+
+    <div class="box">
+      <h3>Branch Locations</h3>
+      <a href="">India</a>
+      <a href="">USA</a>
+      <a href="">Canada</a>
+      <a href="">Japan</a>
+      
+    </div>
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="">Home</a>
+      <a href="">Services</a>
+      <a href="">Packages</a>
+    </div>
+
+    <div class="box">
+      <h3>Reach Us</h3>
+      <a href=""><i class="fa fa-google" style="font-size:20px;color: rgb(8, 52, 65); padding:5px;"></i> elisyum@gmail.com</a>
+      <a href=""><i class="fa fa-facebook-square" style="font-size:20px;color: rgb(8, 52, 65); padding:5px;"></i> Facebook</a>
+      <a href=""><i class="fa fa-instagram" style="font-size:20px;color: rgb(8, 52, 65); padding:5px;"></i> Instagram</a>
+      <a href=""><i class="fa fa-youtube-play" style="font-size:20px;color: rgb(8, 52, 65); padding:5px;"></i> Youtube</a>
+      
+    </div>
+   
+  </div>
+</section>
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg fixed-top " style="background-color: rgb(255, 255, 249);" >
+  <a routerLink=""  class="nav-link brand" id="a" (click)="tohome()" >Elisyum</a>
+  <ul class="navbar-nav navigation ">
+      <li class="nav-item toggle-button"><a routerLink="welcome" class="nav-link" id="a" >Home</a></li>
+      <li class="nav-item toggle-button"><a routerLink="" class="nav-link" id="a" (click)="togallery()" >Packages</a></li>
+      <li class="nav-item toggle-button"><a routerLink="" class="nav-link" id="a" (click)="toservice()" >Service</a></li>
+      <li class="nav-item toggle-button"><a routerLink="" class="nav-link" id="a" (click)="tofooter()" >About</a></li>
+
+      <li class="nav-item toggle-button">
+        <!-- <button class="nav-link nav-item toggle-button" mat-button [matMenuTriggerFor]="menu">Menu</button> -->
+        <img src="../assets/profile-img.jpg" class="image" mat-button [matMenuTriggerFor]="menu" alt="">
+        <mat-menu #menu="matMenu">
+          <li mat-menu-item class="nav-item toggle-button"><a routerLink="" class="nav-link" id="am" (click)="openDialogSignIn('0ms', '0ms')" >Sign-Up</a></li>
+          <li mat-menu-item class="nav-item toggle-button"><a routerLink="" class="nav-link" id="am" (click)="openDialogIn('0ms','0ms')">Login</a></li>
+        </mat-menu>
+
+      </li> 
+        
+      
+
+  </ul>
+ 
+</nav>
+
+
+ 
+
+
+
+  <router-outlet ></router-outlet>
+ 
